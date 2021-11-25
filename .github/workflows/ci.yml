@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.0.0'  
+          - '1.3.0'  
           - '1'     
         os:
           - ubuntu-latest
@@ -58,8 +58,8 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: doctest
-            using MyAwesomePackage
-            doctest(MyAwesomePackage)' # change MYPACKAGE to the name of your package
+            using PlasmaProperties
+            doctest(PlasmaProperties)' 
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
