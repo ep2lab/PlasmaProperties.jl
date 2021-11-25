@@ -9,6 +9,6 @@ makedocs(sitename="PlasmaProperties.jl Documentation",
          format = Documenter.HTML(prettyurls = false)
 ) 
 deploydocs(
-    repo = "github.com/sylvaticus/MyAwesomePackage.jl.git",
+    repo = "github.com/ep2lab/PlasmaProperties.jl.git",
     devbranch = "main"
 )
