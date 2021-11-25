@@ -1,3 +1,3 @@
 using Test, PlasmaProperties # This load both the test suite and our MyAwesomePackage
-out = greet()
-@test out == 123   
+
+@test 122 + 1 == 123   
