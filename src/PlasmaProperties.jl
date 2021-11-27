@@ -8,17 +8,23 @@ export f_ce, f_pe
 """
     f_ce(B)
 
-    Compute the cyclotron frequency of electrons in MHz.
+Compute the cyclotron frequency of electrons in MHz.
 """
 f_ce(B) = (e*B/m_e /(2π) |> u"MHz")
 
 
 """
-    f_pe(B)
+    f_pe(ne)
 
-    Compute the plasma frequency of electrons in MHz.
+Compute the plasma frequency of electrons in MHz.
 """ 
 f_pe(ne) = (sqrt(ne*e^2/(m_e*ε_0)) /(2π) |> u"MHz")
 
+"""
+    λ_D(ne,Te)
+
+Compute the Debye length of the plasm in m.
+"""
+λ_D(ne,Te) = sqrt(ε_0*Te/(ne*e^2)) |> u"m" 
 
 end # module
