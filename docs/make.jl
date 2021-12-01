@@ -11,4 +11,4 @@ makedocs(sitename="PlasmaProperties.jl Documentation",
 deploydocs(
     repo = "github.com/ep2lab/PlasmaProperties.jl.git",
     devbranch = "main"
-)
+) 
