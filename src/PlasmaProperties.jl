@@ -4,9 +4,6 @@ PlasmaProperties, a simple plasma calculator module in Julia
 The module contains basic functions to compute common plasma properties, such as characteristic frequencies and lengths.
 
 It builds on Unitful, which provides a simple unit system for physical quantities.
-
-The exported names are:
-$(EXPORTS)
 """
 module PlasmaProperties
 
