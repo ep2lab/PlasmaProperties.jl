@@ -22,9 +22,6 @@ const mT = u"mT"
 const G = u"Gauss"
 const Hz = u"Hz"
 const MHz = u"MHz"
-
-# this is a simple test
-
  
 """
     f_ce(B)
