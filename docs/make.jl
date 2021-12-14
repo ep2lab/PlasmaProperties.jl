@@ -2,7 +2,7 @@ using Documenter
 using PlasmaProperties
 
 push!(LOAD_PATH,"../src/")
-makedocs(sitename="PlasmaProperties.jl Documentation",
+makedocs(sitename="PlasmaProperties.jl",
          pages = [
             "Index" => "index.md", 
          ],
