@@ -1,7 +1,7 @@
 name = "PlasmaProperties"
 uuid = "0ee7eb5d-809b-41c1-ada9-2f03847bf980"
 authors = ["Mario Merino <mario.merino@uc3m.es>"]
-version = "0.2.0"
+version = "0.3.0"
 
 [deps]
 PhysicalConstants = "5ad8b20f-a522-5ce9-bfc9-ddf1d5bda6ab"
